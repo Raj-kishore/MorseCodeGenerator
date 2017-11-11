@@ -1,0 +1,202 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Flash Club V 0.1"
+        android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+            android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+        android:text="Thank you for installing Flash Club." />
+        <TextView
+        android:id="@+id/textVieeeew2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+            android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+        android:text="Developer: Raj K. Moharana(RAJ KM)" />
+    
+       <TextView
+        android:id="@+id/textView3ssss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Help "
+        android:textColor="#303f9f"
+       
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            
+            
+                        <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView1"
+                                android:layout_width="15dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="15dp"
+                                android:rotation="270"
+                                android:src="@drawable/mors" />
+
+                        <TextView
+        android:id="@+id/textView3ss12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+          android:layout_marginRight="10dp"
+        android:text="Morse Code Generator"
+        android:textColor="#303f9f"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+                            
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                                  android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+          android:textColor="#333"
+                            android:text="It helps to convert words to morse code to transmit a nonverbal message to peers. For Example, type SOS and generate it as morse code." />
+
+                        
+                               <LinearLayout
+        android:id="@+id/lay2"
+           android:padding="5dp"
+        android:layout_width="wrap_content"  android:layout_height="25dp"
+        android:orientation="horizontal">
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="25dp"
+                            
+                                            android:layout_marginLeft="10dp"
+                android:layout_height="15dp"
+                            android:src="@drawable/alarm" />
+
+                                <TextView
+        android:id="@+id/textView3ss2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+        android:textColor="#303f9f"
+        android:text="Reminder"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+                                
+                                </LinearLayout>
+
+                                <TextView
+                                    android:id="@+id/textView5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                          android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+             android:textColor="#333"
+                                    android:text="Set time, date and details for an event. That's it. It helps you remind that event on time.  "
+                                    android:textAppearance="?android:attr/textAppearanceSmall" />
+       <LinearLayout
+        android:id="@+id/lay3"
+           android:padding="5dp"
+        android:layout_width="wrap_content"  android:layout_height="25dp"
+        android:orientation="horizontal">
+                                <ImageView
+                                    android:id="@+id/imageView3"
+                                     android:layout_width="25dp"
+                android:layout_height="15dp"
+                
+                                            android:layout_marginLeft="10dp"
+                                    android:src="@drawable/discu" />
+
+                                  <TextView
+                                      android:id="@+id/textView3ss3"
+                                     android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+        android:textColor="#303f9f"
+        android:text="Club Mode"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
+   <TextView
+                                      android:id="@+id/textViehfjw6"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+             android:textColor="#333"
+                                      android:text="Maximizes light intensity of front screen that displays polychromatic strobe effect. "
+                                      android:textAppearance="?android:attr/textAppearanceSmall" />
+       
+  <LinearLayout
+        android:id="@+id/lay4"
+           android:padding="5dp"
+        android:layout_width="wrap_content"  android:layout_height="25dp"
+        android:orientation="horizontal">
+                                <ImageView
+                                    android:id="@+id/imageView4"
+                                     android:layout_width="25dp"
+                android:layout_height="15dp"
+                
+                                            android:layout_marginLeft="10dp"
+                                    android:src="@drawable/tou" />
+
+                                  <TextView
+                                      android:id="@+id/text"
+                                     android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+        android:textColor="#303f9f"
+        android:text="Touch screen led"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
+       
+
+                                  <TextView
+                                      android:id="@+id/textView6"
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+             android:textColor="#333"
+                                      android:text="Its an unique feature supported in many smart phones. It flashes led as long as the blank screen is touched."
+                                      android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="For any kind of 'Suggestions' or 'Bugs You Might Face during the Application runtime', Let us know about it. Your suggestion is most welcome and valuable. "
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
+</ScrollView>

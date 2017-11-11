@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FCE83A"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="International Morse code"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#9C27B0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Recommendation "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2jb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="ITU-R  M.1677-1 (10/2009)"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Mobile, radiodetermination, amateur and related satellite services"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4kk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Scope"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:padding="10dp"
+        android:text="This Recommendation confirms the International Morse code characters and the operational provisions applying to their use in radiocommunication services*."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="The ITU Radiocommunication Assembly,"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="considering"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/textView6kn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="a)	that versions of the Morse code have been in use since 1844;"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/textView6lml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="b)	that it continues to be used in some radiocommunication services including the amateur and amateur-satellite services, and to a diminishing extent in the mobile and fixed services;"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/atextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="c)	that the code needs to be updated from time-to-time to meet the needs of the radiocommunication services,	"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="recommends,"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/textViewar7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Following codes should be used to define the Morse code characters and their applications in the radiocommunication services."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mors" />
+
+    <TextView
+        android:id="@+id/textViewr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Reference:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="http://www.itu.int/rec/R-REC-M.1677-1-200910-I/"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#9C27B0" />
+    
+        <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:text="Use of Morse Code in this app"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        
+          <TextView
+        android:id="@+id/textViews1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#303f9f"
+        android:padding="5dp"
+         android:textStyle="bold"
+        android:text="1. LED status is ON for each dot."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+             
+          <TextView
+        android:id="@+id/textView2s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textStyle="bold"
+        
+        android:textColor="#303f9f"
+        android:padding="5dp"
+        android:text="2. LED status is ON *3 for each dash. "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+            <TextView
+        android:id="@+id/textViews3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+         android:textStyle="bold"
+        android:textColor="#303f9f"
+        android:text="3. LED status is OFF for the space between parts of the same letter."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+                      <TextView
+        android:id="@+id/textVdiews3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+         android:textStyle="bold"
+        android:textColor="#303f9f"
+        android:text="4. LED status OFF *3 for the space between letters. "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+                          <TextView
+        android:id="@+id/textVdiewss3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textStyle="bold"
+        android:textColor="#303f9f"
+        android:padding="5dp"
+        android:text="5. LED status is OFF *7 for the space between words."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+                                      <TextView
+        android:id="@+id/textVdiewsws3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textStyle="bold"
+        android:textColor="#303f9f"
+        android:padding="5dp"
+        android:text="6. LED status is OFF *3 for each looping interval."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</LinearLayout>
+
+</ScrollView>

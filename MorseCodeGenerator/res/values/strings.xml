@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Morse flashlight</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">  Rate This App</string>
+        <string name="action_settingsok">  Suggestions and Help</string>
+        
+        <string name="action_settingsok1">  Share It </string>
+        
+        <string name="action_settingsok2">Buy Pro Version (No Ads)</string>
+        
+        <string name="action_settingsok3">Live Wallpaper</string>
+      <string name="tbox">Morse flashlight</string>
+       <string name="mycolor">#fff</string>
+        <string name="ok">#000</string>
+
+</resources>
